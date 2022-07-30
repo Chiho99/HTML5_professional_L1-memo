@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>HTML5</h1>
+
+    <h2>テキスト</h2>
+    <div>
+        <mark>blockquote要素の使用：</mark>
+        <blockquote>blockquote要素の<cite>cite属性はイタリックで</cite>表示される</blockquote>
+
+        <q>q要素の<cite>cite属性はイタリックで</cite>表示される</q>
+    </div>
+    <div>
+        <mark>cite要素の使用：</mark>
+        <p><cite>Harry Potter</cite>'s best famouse line is<q>Time will not slow down when something unpleasant lies
+                ahead.</q></p>
+    </div>
+    <div>
+        <mark>small要素の使用：</mark>
+        <small>Copyright &copy</small>
+    </div>
+    <div>
+        <mark>abbr要素の使用：</mark>
+        <abbr title="international space station">ISS</abbr>
+    </div>
+    <div>
+        <mark>dfn要素の使用：</mark>
+        <p><dfn>def要素</dfn>とは定義対象となっている用語であることを示す
+    </div>
+    <div>
+        <mark>s要素の使用：</mark>
+        <s>worng information</s>
+        <p>correct infromation</p>
+    </div>
+    <div>
+        <mark>u要素の使用：</mark>
+        <p>u要素使用例 - スペルミス</p>
+        <p>Hello, <u class="spelling">warld!</u></p>
+    </div>
+    <div>
+        <mark>pre要素の使用：</mark>
+        <pre>
+            <code class="language-css">
+                h1{
+                    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+                }
+            </code>
+        </pre>
+    </div>
+    <div>
+        <mark>code要素の使用：</mark>
+        <p>
+            We mark up the source code with <code>code tag</code> in HTML.
+        </p>
+    </div>
+    <div>
+        <mark>kbd要素の使用：</mark>
+        <p>次に<kbd>3</kbd>キーを押してください</p>
+    </div>
+    <div>
+        <mark>samp要素の使用：</mark>
+        <pre>
+            <samp>
+                Reviewing the access right of "Macintosh HD"
+                Reading the access right datanase
+                It could be a few minutes to have done...
+            </samp>
+        </pre>
+    </div>
+    <div>
+        <mark>var要素の使用：</mark>
+        <p>CSS3には:nth-child(<var>a</var>n+<var>b</var>)という書式のセレクタがあって、<var>a</var>と<var>b</var>のところには任意の整数が指定できる
+        </p>
+    </div>
+    <div>
+        <mark>sup要素の使用：</mark>
+        <p><var>E</var>=<var>m</var><var>c</var><sup>2</sup></p>
+    </div>
+    <div>
+        <mark>sub要素の使用：</mark>
+        <p>二酸化炭素はCO<sub>2</sub>です</p>
+    </div>
+    <div>
+        <mark>wbr要素の使用：</mark>
+        <p id="wbr">What does super <wbr>callifragilistic<wbr>expiali<wbr>docious mean?</p>
+    </div>
+    <div>
+        <mark>ins要素の使用：</mark>
+        <h1>To do List</h1>
+        <ul>
+            <li>Finish to read the books on HTML5</li>
+            <li>Get LPI-ID</li>
+            <li>Apply for the exam of HTML5</li>
+            <li><ins datetime="2022-08-01">Take the exam of HTML5</ins></li>
+        </ul>
+    </div>
+    <div>
+        <mark>del要素の使用：</mark>
+        <h1>To do List</h1>
+        <ul>
+            <li>Finish to read the books on HTML5</li>
+            <li><del datetime="2017-04-01T20:30+09:00">Get LPI-ID</del></li>
+            <li>Apply for the exam of HTML5</li>
+            <li><ins datetime="2022-08-01">Take the exam of HTML5</ins></li>
+        </ul>
+    </div>
+    <h2>リスト</h2>
+    <div>
+        <mark>dl要素、dt要素、dd要素の使用</mark>
+        <dl>
+            <dt>どのくらいの正答率?</dt>
+            <dd>7割程度の正答率で合格できる設定となっている</dd>
+            <dt>他の資格試験との違いは何か？</dt>
+            <dd>知識よりも、現場で必要となる能力に重点が置かれている</dd>
+        </dl>
+    </div>
+    <div>
+        <mark>ルビの使用</mark><br>
+        <div>
+            <ruby>漢字<rt>かんじ</rt></ruby>
+        </div>
+        <div>
+            <ruby>
+                <rb>漢字<rt>かんじ
+            </ruby>
+        </div>
+        <div>
+            <ruby>
+                <rb>漢</rb>
+                <rb>字</rb>
+                <rt>かん</rt>
+                <rt>じ</rt>
+            </ruby>
+        </div>
+        <div>
+            <ruby>漢<rb>字<rt>かん</rt>
+                    <rt>じ</rt></ruby>
+        </div>
+        <div>
+            <ruby>漢字<rp>(</rp>
+                <rt>かんじ</rt>
+                <rp>)</rp>
+            </ruby>
+        </div>
+        <div>
+            <ruby>
+                <rb>漢</rb>
+                <rb>字</rb>
+                <rp>（</rp>
+                <rt>かん</rt>
+                <rt>じ</rt>
+                <rp>）</rp>
+            </ruby><br>
+        </div>
+        <div>
+            <ruby>
+                <rb>漢</rb>
+                <rb>字</rb>
+                <rt>かん</rt>
+                <rt>じ</rt>
+                <rtc>
+                    <rt>kan</rt>
+                    <rt>ji</rt>
+                </rtc>
+            </ruby>
+        </div>
+    </div>
+    <div>
+        <mark>picture要素の使用</mark>
+        <p>30emより小さい時、チョッパー表示</p>
+        <p>30em以上でエネル表示</p>
+        <p>50em以上でバギー表示</p>
+        <picture>
+            <source media="(min-width: 50em)" srcset="./imgs/large.png">
+            <source media="(min-width: 30em)" srcset="./imgs/medium.png">
+            <img src="./imgs/small.png" alt="">
+        </picture>
+    </div>
+    <div>
+        <mark>picture要素の使用</mark>
+        <p>500px以下のときには、ピクセル密度に合わせてチョッパー又はエネルを表示</p>
+        <picture>
+            <source media="(max-width: 500px)" srcset="./imgs/small.png, ./imgs/medium.png 2x">
+            <img src="./imgs/large.png" srcset="./imgs/xlarge.png" alt="">
+        </picture>
+    </div>
+    <div>
+        <mark>picture要素の使用:type属性</mark>
+        <picture>
+            <source srcset="./imgs/small.png" type="image/png">
+            <source srcset="./imgs/medium.png" type="image/png">
+            <img src="./imgs/large.png" alt="">
+            </source>
+        </picture>
+    </div>
+    <div>
+        <mark>video要素の使用</mark>
+        <video controls>
+            <source src="./video/sample2.mp4" type="video/mp4">
+            <source src="./video/sample.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+        <mark>video要素の使用</mark>
+        <video src="./video/sample.mp4" controls width="500" hright="360">
+            <p><a href="./video/sample.mp4">動画ファイル格納先</a></p>
+        </video>
+    </div>
+    <div>
+        <mark>audio要素の使用</mark>
+        <audio src="./audio/sample.mp3" controls>
+            <p><a href="./audio/sample.mp3">音声ファイル格納先</a></p>
+        </audio>
+    </div>
+    <div>
+        <mark>map要素の使用</mark>
+        <img src="./imgs/small.png" usermap="#chopper" alt="small">
+        <map name="chopper">
+            <area shape="" coords="" href="./imgs/medium.png" alt="medium">
+            <area shape="" coords="" href="./imgs/large.png" alt="large">
+        </map>
+    </div>
+</body>
+
+</html>

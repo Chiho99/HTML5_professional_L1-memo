@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+body > * {
+    border: 3px solid rgba(29, 18, 61, 0.346);
+    border-radius: 5px;
+    margin: 10px;
+    width: 500px;
+}
+
+div {
+    padding: 10px;
+}
+
+div > * {
+    text-align: start;
+ }
+
+ h1 {
+    width: 100%;
+    border: none;
+ }
+
+ #wbr {
+    width: 290px;
+ }
+
+ h2 {
+    border: none;
+    width: 100%;
+ }
+
+ /* ruby {
+    margin: 10px;
+ }
+ */
